@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101a1d" />
+    <meta name="description" content="Демонстрационный сайт сервиса ремонта техники. Название, адрес и контакты вымышлены." />
+    <title>ТехноПульс — ремонт техники | демо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="demo-ribbon"><span class="demo-dot"></span> Демонстрационный шаблон · компания и контакты вымышлены</div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="ТехноПульс — на главную">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M24.8 5.7a10.3 10.3 0 0 0-12.5 12.5L5 25.5a5 5 0 0 0 7.1 7.1l7.3-7.3A10.3 10.3 0 0 0 32 12.8l-6.4 6.4-4.8-4.8 6.4-6.4a10 10 0 0 0-2.4-2.3Z"/><circle cx="10.4" cy="29.1" r="1.2"/></svg></span>
+          <span class="brand-copy"><strong data-company-name>ТехноПульс</strong><small>СЕРВИС ТЕХНИКИ</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Основная навигация"><a href="#services">Услуги</a><a href="#how">Как работаем</a><a href="#about">О сервисе</a><a href="#contacts">Контакты</a></nav>
+        <a class="nav-contact" data-wa-link href="#whatsapp-preview"><span class="wa-icon" aria-hidden="true">◉</span><span data-phone>WhatsApp — демо-контакт</span><span class="arrow">↗</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+      </div>
+      <nav class="mobile-nav" aria-label="Мобильная навигация"><a href="#services">Услуги</a><a href="#how">Как работаем</a><a href="#about">О сервисе</a><a href="#contacts">Контакты</a></nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span><span data-city>Шымкент</span> · ремонт техники</div>
+            <h1>Техника сломалась?<br /><em>Разберёмся.</em></h1>
+            <p class="hero-lead">Опишите, что случилось. Подскажем следующий шаг и согласуем диагностику до начала ремонта.</p>
+            <div class="hero-actions"><a class="button button-lime" href="#request">Описать проблему <span>↗</span></a><a class="button button-ghost" data-wa-link href="#whatsapp-preview">Написать в WhatsApp</a></div>
+            <div class="hero-note"><span class="note-check">✓</span> Сначала уточняем неисправность и стоимость</div>
+          </div>
+          <div class="hero-art" aria-label="Иллюстрация смартфона и инструментов">
+            <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+            <div class="art-caption"><span class="caption-icon">✳</span><span>Аккуратно.<br /><strong>Понятно.</strong></span></div>
+            <div class="phone-device"><div class="phone-side"></div><div class="phone-screen"><div class="phone-notch"></div><div class="screen-top"><span>Диагностика</span><span class="screen-signal">● ● ●</span></div><div class="screen-symbol"><svg viewBox="0 0 90 90" aria-hidden="true"><circle cx="45" cy="45" r="35"/><path d="M45 22v25l17 10"/><path d="M25 64l-8 8m48-8 8 8"/></svg></div><div class="screen-title">Найдём причину</div><div class="screen-subtitle">без лишних замен</div><div class="screen-progress"><i></i></div><div class="screen-status"><span></span> Проверяем устройство</div></div></div>
+            <div class="tool-card"><span class="tool-spark">✳</span><span class="tool-lines"><i></i><i></i><i></i></span><span class="tool-wrench">⌁</span></div>
+            <div class="art-tag"><span class="tag-bullet"></span>Сервисный подход</div>
+            <div class="hero-stamp">FIX<br /><b>LAB</b><span>DEMO</span></div>
+          </div>
+        </div>
+        <div class="hero-bottom container"><span>Смартфоны</span><b>·</b><span>Ноутбуки</span><b>·</b><span>Бытовая техника</span><b>·</b><span>Другая техника</span><div class="scroll-cue">ПРОКРУТИТЕ <span>↓</span></div></div>
+      </section>
+
+      <section class="trust-strip"><div class="container trust-grid"><div class="trust-intro">Без догадок —<br /><strong>сначала диагностика</strong></div><div class="trust-item"><span class="trust-number">01</span><span>Объясняем<br />простыми словами</span></div><div class="trust-item"><span class="trust-number">02</span><span>Согласуем цену<br />до ремонта</span></div><div class="trust-item"><span class="trust-number">03</span><span>Не меняем детали<br />без согласия</span></div><div class="trust-footnote">Демо-концепция. Условия и фактические услуги настраиваются под конкретный сервис.</div></div></section>
+
+      <section class="section services-section" id="services"><div class="container"><div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span>Чем поможем</div><h2>Ремонт начинается<br />с <em>понятного плана.</em></h2></div><p>Опишите симптом — мастер уточнит детали и подскажет, как лучше поступить с устройством.</p></div><div class="services-grid" id="services-grid"></div><div class="section-tail"><span>Не нашли свою технику?</span><a data-wa-link href="#whatsapp-preview">Уточнить в WhatsApp <span>↗</span></a></div></div></section>
+
+      <section class="process-section" id="how"><div class="container process-layout"><div class="process-title"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span>Без сюрпризов</div><h2>Как проходит<br /><em>работа</em></h2><p>Вы понимаете, что происходит с устройством, на каждом этапе.</p><a class="button button-lime" href="#request">Оставить заявку <span>↗</span></a></div><div class="steps"><article class="step"><span class="step-number">01</span><div><h3>Расскажите о проблеме</h3><p>Выберите тип техники и коротко опишите, что изменилось.</p></div><span class="step-mark">↗</span></article><article class="step"><span class="step-number">02</span><div><h3>Согласуем диагностику</h3><p>Уточним детали и договоримся о следующем шаге. Никаких работ без согласия.</p></div><span class="step-mark">↗</span></article><article class="step"><span class="step-number">03</span><div><h3>Объясним решение</h3><p>Сообщим, что обнаружено, какие есть варианты и сколько это будет стоить.</p></div><span class="step-mark">↗</span></article><article class="step"><span class="step-number">04</span><div><h3>Передадим устройство</h3><p>После согласования ремонта проверим устройство и сообщим, когда оно готово.</p></div><span class="step-mark">↗</span></article></div></div></section>
+
+      <section class="section principles-section" id="about"><div class="container principles-grid"><div><div class="eyebrow"><span class="eyebrow-line"></span>Наш подход</div><h2>Ремонт без<br /><em>неожиданностей.</em></h2><p class="principles-lead">Хороший сервис — это не громкие обещания. Это ясные договорённости и уважение к вашему времени.</p></div><div class="principle-list"><article><span>↗</span><div><h3>Понятное объяснение</h3><p>Расскажем, что нашли, без сложных терминов и давления.</p></div></article><article><span>↗</span><div><h3>Ваше решение — главное</h3><p>Сначала стоимость и согласие, затем работа.</p></div></article><article><span>↗</span><div><h3>Связь в удобном формате</h3><p>Можно начать с короткого сообщения и фото устройства.</p></div></article></div></div></section>
+
+      <section class="request-section" id="request"><div class="container request-layout"><div class="request-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span>Первый шаг</div><h2>Что случилось<br /><em>с устройством?</em></h2><p>Заполните форму — откроется WhatsApp с подготовленным сообщением. Вы сможете проверить его и отправить сами.</p><div class="request-privacy"><span>↗</span> Форма ничего не отправляет автоматически и не сохраняет введённые данные.</div></div><form class="request-form" id="request-form"><label class="field-label" for="service">Что нужно посмотреть?</label><div class="select-wrap"><select id="service" name="service" required><option value="" selected disabled>Выберите тип услуги</option></select><span>⌄</span></div><label class="field-label" for="problem">Опишите проблему</label><textarea id="problem" name="problem" rows="4" required placeholder="Например: ноутбук не включается после обновления"></textarea><div class="field-row"><div class="name-field"><label class="field-label" for="client-name">Как к вам обращаться <small>необязательно</small></label><input id="client-name" name="name" autocomplete="given-name" placeholder="Ваше имя" /></div><button class="button button-lime submit-button" type="submit">Продолжить в WhatsApp <span>↗</span></button></div><p class="form-hint" id="form-hint" aria-live="polite">Откроется WhatsApp с готовым текстом — отправка останется за вами.</p></form></div></section>
+
+      <section class="contact-section" id="contacts"><div class="container contact-layout"><div><div class="eyebrow"><span class="eyebrow-line"></span>На связи</div><h2>Начнём<br />с <em>сообщения.</em></h2><p>Опишите устройство и симптом — подскажем, какую информацию подготовить для диагностики.</p></div><div class="contact-card"><div class="contact-card-top"><span class="online-dot"></span> <span data-contact-label>Демо-контакт</span><span class="contact-city" data-city>Шымкент</span></div><a class="contact-phone" data-wa-link href="#whatsapp-preview"><span data-phone>WhatsApp подключается под заказчика</span><span>↗</span></a><p data-contact-note>Реальный номер подключается после согласования с заказчиком.</p><a class="contact-action" data-wa-link href="#whatsapp-preview">Открыть WhatsApp <span>↗</span></a></div><div class="address-note"><span class="address-icon">⌖</span><div><strong data-address>Адрес сервисного центра — заменить</strong><small>Точный адрес и часы работы добавляются в config.js</small></div></div></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M24.8 5.7a10.3 10.3 0 0 0-12.5 12.5L5 25.5a5 5 0 0 0 7.1 7.1l7.3-7.3A10.3 10.3 0 0 0 32 12.8l-6.4 6.4-4.8-4.8 6.4-6.4a10 10 0 0 0-2.4-2.3Z"/><circle cx="10.4" cy="29.1" r="1.2"/></svg></span><span class="brand-copy"><strong data-company-name>ТехноПульс</strong><small>ДЕМО-ШАБЛОН</small></span></a><span class="footer-message">Сначала разберёмся. Потом решим.</span><a href="#top" class="back-top">Наверх ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> <span data-company-name>ТехноПульс</span> · демонстрационный макет</span><span>Название, адрес, телефон и услуги — примерные данные.</span></div></footer>
+    <div class="mobile-bar"><span>Нужна диагностика?</span><a data-wa-link href="#whatsapp-preview">WhatsApp ↗</a></div>
+    <dialog class="wa-dialog" id="wa-dialog" aria-labelledby="wa-dialog-title" aria-describedby="wa-dialog-description">
+      <div class="wa-dialog-top"><span class="wa-dialog-mark" aria-hidden="true">◉</span><button class="wa-dialog-close" id="wa-dialog-close" type="button" aria-label="Закрыть">×</button></div>
+      <h2 id="wa-dialog-title">Предпросмотр сообщения</h2>
+      <p id="wa-dialog-description">В деморежиме сайт не открывает WhatsApp и не отправляет сообщения. Реальный контакт подключается под конкретного заказчика.</p>
+      <pre id="wa-dialog-message"></pre>
+      <button class="button button-lime wa-dialog-ok" id="wa-dialog-ok" type="button">Понятно</button>
+    </dialog>
+  </body>
+</html>
